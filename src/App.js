@@ -45,7 +45,7 @@ function App() {
       confirmationResult
         .confirm(otp)
         .then((result) => {
-          // User signed in successfully.
+          console.log(result);
           // ...
         })
         .catch((error) => {
